@@ -1,6 +1,6 @@
 <?php
     require('./templates/header.php');
-    require('./templates/footer.php');
+   
     $homeController = new \App\Controller\HomeController();
     var_dump($homeController);
 ?>
@@ -109,16 +109,8 @@
 
     <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2014</p>
-            </div>
-            <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-    </footer>
-
+    
 </div>
-<!-- /.container -->
+<?php 
+ require('./templates/footer.php');
+ ?>
