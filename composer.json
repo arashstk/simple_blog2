@@ -1,0 +1,11 @@
+{
+    "name": "test12/oop",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+
+}
+
