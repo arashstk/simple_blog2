@@ -1,5 +1,5 @@
 <?php
-     include __DIR__ . "\..\app\bootstrap\autoload.php";
+include __DIR__ . "\..\app\bootstrap\autoload.php";
 ?>
 
 <!DOCTYPE html>
@@ -24,10 +24,10 @@
 
 <body>
 
-<div class="btn-group" style="margin: 8px;float:right">
+  <div class="btn-group" style="margin: 8px;float:right">
     <a href="/login.php" class="btn btn-success sm">Login</a>
     <a href="/register.php" class="btn btn-danger">Register</a>
-</div>
+  </div>
 
 
 </body>

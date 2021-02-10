@@ -1,7 +1,7 @@
 <?php
 require('./templates/header.php');
-$homeController = new \App\Controller\HomeController();
-$homeController->index();
+$user = new \App\Controller\UserController();
+$user->register();
 ?>
 
 

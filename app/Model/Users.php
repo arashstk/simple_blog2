@@ -1,5 +1,8 @@
-<?php namespace App\Model;
+<?php
 
-class Users extends DB {
+namespace App\Model;
+
+class Users extends DB
+{
     protected $table = 'users';
 }
