@@ -1,8 +1,7 @@
 <?php
-    require('./templates/header.php');
-   
+    require('./templates/header.php');   
     $homeController = new \App\Controller\HomeController();
-    var_dump($homeController);
+    $homeController->index();
 ?>
 
 
